@@ -1,0 +1,11 @@
+{
+  "behavior": {
+    "type": "obtrophies:explosion",
+    "destructive": false,
+    "power": 2.0
+  },
+  "drop_chance": 0.001,
+  "entity": "rocket_creeper:rocket_creeper",
+  "offset": 0.0,
+  "scale": 1.0
+}

@@ -1,0 +1,35 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="Academic Free License v3.0"
+
+[[mods]]
+modId="rocket_creeper"
+version="1.0.3"
+displayName="Rocket Creeper"
+displayURL="https://modrinth.com/mod/rocket-creeper"
+logoFile="logo.png"
+credits="Created using mod maker MCreator - https://mcreator.net/about"
+authors="Hallowed103"
+description="Adds rocket creeper from primitive mobs mod!"
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.rocket_creeper]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1]"
+    ordering="AFTER"
+    side="BOTH"
+
+
+[[dependencies.rocket_creeper]]
+    modId="geckolib"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration
